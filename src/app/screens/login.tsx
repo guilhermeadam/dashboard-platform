@@ -1,13 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+export default function LoginScreen() {
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 28 }}>Dashboard Platform</Text>
-      <Text style={{ fontSize: 16, color: 'gray' }}>
-        Plataforma de Dashboard da Casa Civil
-      </Text>
+      <Text>LoginScreen</Text>
       <StatusBar style="auto" />
     </View>
   );
