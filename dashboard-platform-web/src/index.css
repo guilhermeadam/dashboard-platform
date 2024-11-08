@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+.bg-gradient-to-r {
+  background: linear-gradient(251deg, #55bec5, #24a637);
+}
+.border-c-yellow {
+  border-color: #e4a500;
+}
+.border-c-l-orange {
+  border-left-color: #e94f0e !important;
+}
+.hover\:border-orange:hover {
+  border-color: #e94f0e;
+}
+.hover\:border-yellow:hover {
+  border-color: #e4a500;
+}
+.hover\:bg-green:hover {
+  background-color: #21683c;
+}
+.hover\:color-white:hover {
+  color: #ffffff;
+}
+.min-heigth-800 {
+  min-height: 800px;
+}
+.bg-gray {
+  background-color: #d9d9d9;
+}
+.bg-\[\#00853b\] {
+  background-color: #21683c !important;
+}
+.text-dark-gray {
+  color: #313131;
+}
+.d-none {
+  display: none;
+}
+.border-c-green {
+  border-left-color: #21683c;
+}
+.p-3 {
+  padding: 0.3rem;
+}
+.mg-t-8 {
+  margin-top: 8px;
+}
+.text-white {
+  color: #d9d9d9;
+}
+.fonte-s-15 {
+  font-size: 15px;
+}
+.font-b-600 {
+  font-weight: 600;
+}
+.hover\:font-b-600:hover {
+  font-weight: 600;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.shadow {
+  box-shadow: 0 1px 3px 0px #afafaf;
+}
+.m-h-600 {
+  min-height: 600px;
+}
